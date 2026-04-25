@@ -1,4 +1,4 @@
-# home-lab-active-directory
+# Home-lab-active-directory
 
 ## Overview
 Built a virtualised enterprise lab using VirtualBox to simulate a corporate network.
