@@ -26,7 +26,7 @@ entirely in VirtualBox on a home PC.
              +-----------+
 ```
        
-              ## Environment
+## Environment
 
 | Component | Spec |
 |---|---|
