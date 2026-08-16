@@ -5,23 +5,27 @@ domain controller running on Windows Server 2022, with an Ubuntu client, deploye
 entirely in VirtualBox on a home PC.
 
 ## Topology
-INTERNET
-                    │
-                 NAT NIC
-                    │
-              ┌─────┴─────┐
-              │    DC01    │
-              │ Win Server │
-              │  AD DS     │
-              │  DNS       │
-              └─────┬─────┘
-                    │
-            Host-only LAN (192.168.56.0/24)
-                    │
-              ┌─────┴─────┐
-              │  UBUNTU01  │
-              │  Client    │
-              └────────────┘
+
+```
+                INTERNET
+                   |
+                NAT NIC
+                   |
+             +-----------+
+             |   DC01    |
+             | Win Server|
+             |   AD DS   |
+             |    DNS    |
+             +-----------+
+                   |
+       Host-only LAN (192.168.56.0/24)
+                   |
+             +-----------+
+             | UBUNTU01  |
+             |  Client   |
+             +-----------+
+```
+       
               ## Environment
 
 | Component | Spec |
