@@ -112,6 +112,8 @@ failed restart attempt. Resolved all three, layer by layer, verifying with
 `dcdiag /test:dns` after each fix — final result came back completely
 clean.
 
+![DNS diagnostics clean after fix](screenshots/05-dns-issue-resolved.png)
+
 ## Skills demonstrated
 
 - System administration (Windows Server, Active Directory Domain Services)
